@@ -5,6 +5,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+/**
+ * 给定一个非空二叉树, 返回一个由每层节点平均值组成的数组。
+ * 思路：
+ */
 class Solution {
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> res = new ArrayList<>();
