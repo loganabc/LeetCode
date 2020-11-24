@@ -14,9 +14,9 @@ class Solution {
         if(root == null){
             return 0;
         }
-        //链表
+        //队列
         Queue<TreeNode> q = new LinkedList<>();
-        q.offer(root);//根节点进入链表
+        q.offer(root);//根节点进入队列
         int n = 0;
         while(!q.isEmpty()){//当链表非空时
             int size = q.size();
